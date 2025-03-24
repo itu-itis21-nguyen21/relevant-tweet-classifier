@@ -22,7 +22,9 @@ To conduct the classification, I designed a **Multilayer Perceptron (MLP)** with
 
 Below is the classification report of the best-performing model on the test set:
 
+```
 !(report.png)
+```
 
 ## Repository Structure
 

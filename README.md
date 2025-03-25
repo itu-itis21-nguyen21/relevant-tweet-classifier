@@ -18,6 +18,8 @@ To conduct the classification, I designed a **Multilayer Perceptron (MLP)** with
   - Learning rate: **2e-5**
   - Weight decay: **1e-2** (default)
 
+Model definition, training, and validation code were all implemented with PyTorch.
+
 ## Performance
 
 Below is the classification report of the best-performing model on the test set:

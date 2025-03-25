@@ -12,7 +12,7 @@ This project was developed during my internship with the goal of designing and i
 
 To conduct the classification, I designed a **Multilayer Perceptron (MLP)** with the following specifications:
 
-- **Input Features:** 768-dimensional vector embeddings extracted from each tweet using a **BERT-based sentence embedding model** trained specifically for Turkish.
+- **Input Features:** 768-dimensional vector embeddings extracted from each tweet using a **BERT-based sentence embedding model** trained specifically for Turkish (https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr).
 - **Architecture:** Fully connected layers with **LeakyReLU** activation and **Dropout** for regularization.
 - **Optimizer:** **AdamW** optimizer with:
   - Learning rate: **2e-5**
